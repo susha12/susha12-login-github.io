@@ -1,7 +1,6 @@
 body{
     background-color: #48ffcf;
     display: flex;
-    border: 2px solid red;
     height: 100vh;
     justify-content: center;
     align-items: center;
