@@ -1,22 +1,22 @@
 @font-face {
     font-family: TTCommons-Black;
-    src: url(/login/fonts/TTCommons-Black.ttf);
+    src: url(/fonts/TTCommons-Black.ttf);
 }
 @font-face{
     font-family: TTCommons-DemiBold;
-    src: url(/login/fonts/TTCommons-DemiBoldItalic.ttf);
+    src: url(/fonts/TTCommons-DemiBoldItalic.ttf);
 }
 @font-face{
 font-family: TTCommons-BoldItalic;
-src: url(/login/fonts/TTCommons-BoldItalic.ttf);
+src: url(/fonts/TTCommons-BoldItalic.ttf);
 }
 @font-face{
 font-family: TTCommons-Bold;
-src: url(/login/fonts/TTCommons-Bold.ttf);
+src: url(/fonts/TTCommons-Bold.ttf);
 }
 @font-face{
 font-family: TTCommons-ExtraBold;
-src: url(/login/fonts/TTCommons-ExtraBold.ttf);
+src: url(/fonts/TTCommons-ExtraBold.ttf);
 }
 body{
     background: #48ffcf;
