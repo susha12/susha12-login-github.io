@@ -1,0 +1,262 @@
+
+@font-face {
+    font-family: TTCommonsBold;
+    src: url(/login/fonts/TTCommons-Bold.ttf);
+}
+
+/* box_name_fonts and button */
+@font-face {
+    font-family: TTCommonsExtraBold;
+    src: url(/login/fonts/TTCommons-ExtraBold.ttf);
+}
+/* do_you_have_acaunts_fonts and input_fonts */
+@font-face {
+    font-family: TTCommonsMedium;
+    src: url(/login/fonts/TTCommons-Medium.ttf);
+}
+body{
+    background:#191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.box{
+    width: 1100px;
+    height: 90vh;
+}
+.title{
+    width: 200px;
+    font-family: TTCommonsBold;
+    font-size: 38px;
+    margin: 0px;
+    color: #48ffcf;
+}
+.box_big{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: calc(45vh - 380px);
+    display: flex;
+    flex-direction: row;
+}
+.box_content__left{
+    width: 70%;
+    height: 700px;
+    background: #353535;
+    margin: 0 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.box_content__right{
+    width: 30%;
+    height: 700px;
+    background: #353535;
+    margin: 0 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.box_content__left .list_game,
+.info_game,
+.how_play{
+    font-family: TTCommonsBold;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;  
+}
+
+.list_our__name{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 10px;
+    font-family: TTCommonsMedium;
+}
+.random_name{
+    list-style-type: none;
+    font-size: 20px;
+    color: #707070;
+    cursor: pointer;
+}
+.rounds_game,
+.gamers,
+.gamers_name{
+    font-family: TTCommonsMedium;
+    font-size: 22px;
+    
+}
+.gamers_name{
+    cursor: pointer;
+    list-style-type: none;
+}
+.list_gamers_numbers{
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.rounds_game{
+    margin: 10px 0;
+}
+.rounds_game__number,
+.gamer_name_number{
+    display: inline;
+    font-family: TTCommonsExtraBold;
+    font-size: 22px;
+}
+.button_conects{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #48ffcf;
+    margin: 0 auto;
+    height: 45px;
+    width: 27%;
+    border: none;
+    padding-top: 4px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: TTCommonsExtraBold;
+    cursor: pointer;
+}
+.instrukcion_one,
+.instrukcion_two,
+.your_card,
+.your_qvestion{
+    font-family: TTCommonsMedium;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+#fname{
+    height: 35px;
+    width: 84%;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: TTCommonsMedium;
+    margin: 10px auto;
+    border: none;
+}
+#your_text{
+    height: 100px;
+    width: 84%;
+    padding-left: 10px;
+    font-size: 26px;
+    font-family: TTCommonsBold;
+    margin: 10px auto;
+    border: none;
+    resize: none;
+}
+.your_button{
+    color: black;
+    background-color: #48ffcf;
+    text-align: center;
+    height: 45px;
+    width: 88%;
+    border: none;
+    padding-top: 4px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: TTCommonsBold;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+/* left box */
+.list_our__name{
+    color: #707070;
+    font-size: 16px;
+    font-family: TTCommonsMedium;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.button_yes{
+    background: #48ffcf;
+    border: none;
+    margin: 4px;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.button_no{
+    background: #ff4a60;
+    border: none;
+    margin: 2px;
+    height: 21.5px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.box_next__list{
+    color: #707070;
+    font-size: 26px;
+    font-family: TTCommonsMedium;
+    display: flex;
+    width: 300px;
+    margin-left: 5px;
+}
+.number_list .number{
+    display: inline-block;
+    margin-left: 5px;
+}
+.box_left_btn,
+.box_right_btn{
+    width: 40px;
+    height: 40px;
+    background: #bdbdbd;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+/* right  blox */
+.box_content__right{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+.acaunt_close{
+    right: 10px;
+    color: #707070;
+    font-size: 20px;
+    font-family: TTCommonsMedium;
+    position: absolute;
+    right: 20px;
+}
+.acaunt_close .text_close{
+    display: inline;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.list_our__answer{
+    padding: 0;
+    position: relative;
+    position: absolute;
+    right: 20px;
+    top:  50px;
+}
+.list_answer{
+    list-style-type: none;
+    min-width:60%;
+    background-color: rgb(204, 202, 202);
+    color: black;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 16px;
+    font-family: TTCommonsMedium;
+    text-transform: uppercase;
+}
