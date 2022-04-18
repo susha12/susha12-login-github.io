@@ -1,14 +1,14 @@
 @font-face {
     font-family: TTCommonsBold;
-    src: url(/login/fonts/TTCommons-Bold.ttf);
+    src: url(fonts/TTCommons-Bold.ttf);
 }
 @font-face {
     font-family: TTCommonsExtraBold;
-    src: url(/login/fonts/TTCommons-ExtraBold.ttf);
+    src: url(fonts/TTCommons-ExtraBold.ttf);
 }
 @font-face {
     font-family: TTCommonsMedium;
-    src: url(/login/fonts/TTCommons-Medium.ttf);
+    src: url(fonts/TTCommons-Medium.ttf);
 }
 body{
     background: #48ffcf;
