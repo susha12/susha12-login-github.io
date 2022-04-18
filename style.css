@@ -1,7 +1,22 @@
-
+@font-face {
+    font-family: TTCommonsBlack;
+    src: url(fonts/TTCommonsBlack.ttf);
+}
 @font-face{
-font-family: TTCommons-ExtraBold;
-src: url(fonts/TTCommons-ExtraBold.ttf);
+    font-family: TTCommonsDemiBold;
+    src: url(fonts/TTCommonsDemiBoldItalic.ttf);
+}
+@font-face{
+font-family: TTCommonsBoldItalic;
+src: url(fonts/TTCommonsBoldItalic.ttf);
+}
+@font-face{
+font-family: TTCommonsBold;
+src: url(/fonts/TTCommonsBold.ttf);
+}
+@font-face{
+font-family: TTCommonsExtraBold;
+src: url(/fonts/TTCommonsExtraBold.ttf);
 }
 body{
     background: #48ffcf;
@@ -17,7 +32,7 @@ body{
 }
 .title{
     width: 200px;
-    font-family: TTCommons-Bold;
+    font-family: TTCommonsBold;
     font-size: 58px;
     margin: 45px auto;
 
@@ -31,7 +46,7 @@ body{
 .text_title{
     color:white;
     font-size: 28px;
-    font-family: TTCommons-ExtraBold;
+    font-family: TTCommonsExtraBold;
     margin:20px;
     width: 50px;
     height: 30px;
@@ -43,7 +58,7 @@ input{
     padding-left: 10px;
     font-size: 20px;
     color: rgb(161, 161, 161);
-    font-family: TTCommons-Bold;
+    font-family: TTCommonsBold;
     
     margin-bottom: 10px;
     margin-left: 25px;
@@ -58,8 +73,7 @@ input{
     padding-top: 4px;
     font-size: 22px;
     letter-spacing: 2px;
-    font-family: TTCommons-ExtraBold;
-    cursor:pointer;
+    font-family: TTCommonsExtraBold;
 }
 .link a{
     color: rgb(144, 144, 144);
@@ -69,5 +83,5 @@ input{
     height: 20px;
     display: flex;
     letter-spacing: 1px;
-    font-family: TTCommons-Bold;
+    font-family: TTCommonsBold;
 }
