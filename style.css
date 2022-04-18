@@ -1,0 +1,87 @@
+@font-face {
+    font-family: TTCommons-Black;
+    src: url(/login/fonts/TTCommons-Black.ttf);
+}
+@font-face{
+    font-family: TTCommons-DemiBold;
+    src: url(/login/fonts/TTCommons-DemiBoldItalic.ttf);
+}
+@font-face{
+font-family: TTCommons-BoldItalic;
+src: url(/login/fonts/TTCommons-BoldItalic.ttf);
+}
+@font-face{
+font-family: TTCommons-Bold;
+src: url(/login/fonts/TTCommons-Bold.ttf);
+}
+@font-face{
+font-family: TTCommons-ExtraBold;
+src: url(/login/fonts/TTCommons-ExtraBold.ttf);
+}
+body{
+    background: #48ffcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+   
+    width: 350px;
+    height: 450px;
+}
+.title{
+    width: 200px;
+    font-family: TTCommons-Bold;
+    font-size: 58px;
+    margin: 45px auto;
+
+}
+.box_login{
+    width: 350px;
+    height: 260px;
+    background-color: black;
+    padding-top: 5px;
+}
+.text_title{
+    color:white;
+    font-size: 28px;
+    font-family: TTCommons-ExtraBold;
+    margin:20px;
+    width: 50px;
+    height: 30px;
+    margin-left: 25px;
+}
+input{
+    height: 35px;
+    width: 280px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+    font-family: TTCommons-Bold;
+    
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.button{
+    color: black;
+    background-color: #48ffcf;
+    text-align: center;
+    height: 40px;
+    width: 295px;
+    border: none;
+    padding-top: 4px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: TTCommons-ExtraBold;
+}
+.link a{
+    color: rgb(144, 144, 144);
+    font-size: 18px;
+    margin: 5px auto;
+    width: 140px;
+    height: 20px;
+    display: flex;
+    letter-spacing: 1px;
+    font-family: TTCommons-Bold;
+}
