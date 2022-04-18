@@ -1,0 +1,185 @@
+/* title_fonts */
+@font-face {
+    font-family: TTCommonsBold;
+    src: url(/login/fonts/TTCommons-Bold.ttf);
+}
+
+/* box_name_fonts and button */
+@font-face {
+    font-family: TTCommonsExtraBold;
+    src: url(/login/fonts/TTCommons-ExtraBold.ttf);
+}
+/* do_you_have_acaunts_fonts and input_fonts */
+@font-face {
+    font-family: TTCommonsMedium;
+    src: url(/login/fonts/TTCommons-Medium.ttf);
+}
+body{
+    background:#191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.box{
+    width: 1100px;
+    height: 90vh;
+}
+.title{
+    width: 200px;
+    font-family: TTCommonsBold;
+    font-size: 38px;
+    margin: 0px;
+    color: #48ffcf;
+}
+.box_big{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: calc(45vh - 380px);
+    display: flex;
+    flex-direction: row;
+}
+.box_content__left,
+.box_content__center,
+.box_content__right{
+ width: calc(100%/3);
+ height: 700px;
+ background: #353535;
+ margin: 0 5px;
+ padding-left: 20px;
+    box-sizing: border-box;
+}
+.box_content__left .list_game,
+.info_game,
+.how_play{
+    font-family: TTCommonsBold;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;  
+}
+.new_game{
+    width: 130px;
+    border-bottom: 2px solid white;
+    font-family: TTCommonsMedium;
+    font-size: 20px;
+    cursor: pointer;
+}
+.list_our__games{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 10px;
+    font-family: TTCommonsMedium;
+}
+.name_game{
+    list-style-type: none;
+    font-size: 20px;
+    color: #707070;
+    cursor: pointer;
+}
+.name_game:hover{
+    color: white;
+}
+.rounds_game,
+.gamers,
+.gamers_name{
+    font-family: TTCommonsMedium;
+    font-size: 22px;
+    
+}
+.gamers_name{
+    cursor: pointer;
+    list-style-type: none;
+}
+.list_gamers_numbers{
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.rounds_game{
+    margin: 10px 0;
+}
+.rounds_game__number,
+.gamer_name_number{
+    display: inline;
+    font-family: TTCommonsExtraBold;
+    font-size: 22px;
+}
+.button_conects{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #48ffcf;
+    margin: 0 auto;
+    height: 45px;
+    width: 27%;
+    border: none;
+    padding-top: 4px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: TTCommonsExtraBold;
+    cursor: pointer;
+}
+.instrukcion_one,
+.instrukcion_two,
+.your_card,
+.your_qvestion{
+    font-family: TTCommonsMedium;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+#fname{
+    height: 35px;
+    width: 84%;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: TTCommonsMedium;
+    margin: 10px auto;
+    border: none;
+}
+#your_text{
+    height: 100px;
+    width: 84%;
+    padding-left: 10px;
+    font-size: 26px;
+    font-family: TTCommonsBold;
+    margin: 10px auto;
+    border: none;
+    resize: none;
+}
+.your_button{
+    color: black;
+    background-color: #48ffcf;
+    text-align: center;
+    height: 45px;
+    width: 88%;
+    border: none;
+    padding-top: 4px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: TTCommonsBold;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+#new_game{
+    margin: 0 auto;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 0; 
+}
+#new_game__input{
+    height: 35px;
+    width: 84%;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: TTCommonsMedium;
+    margin: 10px;
+    border: none;
+}
