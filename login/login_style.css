@@ -1,91 +1,17 @@
 
-/* @font-face {
-    font-family: TTCommonsBlack;
-    src: url(/login/fonts/TTCommons-Black.ttf);
-}
-@font-face {
-    font-family: TTCommonsBlackItalic;
-    src: url(/login/fonts/TTCommons-BlackItalic.ttf);
-} */
-/* title_fonts */
 @font-face {
     font-family: TTCommonsBold;
     src: url(/login/fonts/TTCommons-Bold.ttf);
 }
-/* @font-face {
-    font-family: TTCommonsBoldItalic;
-    src: url(/login/fonts/TTCommons-BoldItalic.ttf);
-}
-@font-face {
-    font-family: TTCommonsDemiBold;
-    src: url(/login/fonts/TTCommons-DemiBold.ttf);
-} */
-/* box_name_fonts and button */
 @font-face {
     font-family: TTCommonsExtraBold;
     src: url(/login/fonts/TTCommons-ExtraBold.ttf);
 }
-/* @font-face {
-    font-family: TTCommonsExtraBoldItalic;
-    src: url(/login/fonts/TTCommons-ExtraBoldItalic.ttf);
-}
-@font-face {
-    font-family: TTCommonsExtraLight;
-    src: url(/login/fonts/TTCommons-ExtraLight.ttf);
-}
-@font-face {
-    font-family: TTCommonsExtraLight;
-    src: url(/login/fonts/TTCommons-ExtraLight.ttf);
-}
-@font-face {
-    font-family: TTCommonsExtraLight;
-    src: url(/login/fonts/TTCommons-ExtraLight.ttf);
-}
-@font-face {
-    font-family: TTCommonsExtraLightItalic;
-    src: url(/login/fonts/TTCommons-ExtraLightItalic.ttf);
-}
-@font-face {
-    font-family: TTCommonsExtraLight;
-    src: url(/login/fonts/TTCommons-ExtraLight.ttf);
-}
-@font-face {
-    font-family: TTCommonsExtraLight;
-    src: url(/login/fonts/TTCommons-ExtraLight.ttf);
-}
-@font-face {
-    font-family: TTCommonsItalic;
-    src: url(/login/fonts/TTCommons-Italic.ttf);
-}
-@font-face {
-    font-family: TTCommonsLight;
-    src: url(/login/fonts/TTCommons-Light.ttf);
-}
-@font-face {
-    font-family: TTCommonsLightItalic;
-    src: url(/login/fonts/TTCommons-LightItalic.ttf);
-} */
-/* do_you_have_acaunts_fonts and input_fonts */
 @font-face {
     font-family: TTCommonsMedium;
     src: url(/login/fonts/TTCommons-Medium.ttf);
 }
-/* @font-face {
-    font-family: TTCommonsMediumItalic;
-    src: url(/login/fonts/TTCommons-MediumItalic.ttf);
-}
-@font-face {
-    font-family: TTCommonsRegular;
-    src: url(/login/fonts/TTCommons-Regular.ttf);
-}
-@font-face {
-    font-family: TTCommonsThin;
-    src: url(/login/fonts/TTCommons-Thin.ttf);
-}
-@font-face {
-    font-family: TTCommonsThinItalic;
-    src: url(/login/fonts/TTCommons-ThinItalic.ttf);
-} */
+
 body{
     background: #48ffcf;
     display: flex;
