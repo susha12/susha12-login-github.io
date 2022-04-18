@@ -74,6 +74,7 @@ input{
     font-size: 22px;
     letter-spacing: 2px;
     font-family: TTCommons-ExtraBold;
+    cursor:pointer;
 }
 .link a{
     color: rgb(144, 144, 144);
