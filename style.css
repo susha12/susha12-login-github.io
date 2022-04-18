@@ -1,19 +1,4 @@
-@font-face {
-    font-family: TTCommons-Black;
-    src: url(fonts/TTCommons-Black.ttf);
-}
-@font-face{
-    font-family: TTCommons-DemiBold;
-    src: url(fonts/TTCommons-DemiBoldItalic.ttf);
-}
-@font-face{
-font-family: TTCommons-BoldItalic;
-src: url(fonts/TTCommons-BoldItalic.ttf);
-}
-@font-face{
-font-family: TTCommons-Bold;
-src: url(fonts/TTCommons-Bold.ttf);
-}
+
 @font-face{
 font-family: TTCommons-ExtraBold;
 src: url(fonts/TTCommons-ExtraBold.ttf);
