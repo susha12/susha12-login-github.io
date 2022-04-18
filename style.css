@@ -12,11 +12,11 @@ src: url(fonts/TTCommons-BoldItalic.ttf);
 }
 @font-face{
 font-family: TTCommons-Bold;
-src: url(/fonts/TTCommons-Bold.ttf);
+src: url(fonts/TTCommons-Bold.ttf);
 }
 @font-face{
 font-family: TTCommons-ExtraBold;
-src: url(/fonts/TTCommons-ExtraBold.ttf);
+src: url(fonts/TTCommons-ExtraBold.ttf);
 }
 body{
     background: #48ffcf;
