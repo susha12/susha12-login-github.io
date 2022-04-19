@@ -22,15 +22,16 @@ body{
 }
 .box{
     width: 1100px;
-    height: 85vh;
+    height: 90vh;
+    transform: scale(0.8);
 }
 .title{
+    position: absolute;
     width: 200px;
     font-family: TTCommonsBold;
     font-size: 38px;
-    margin: 0px;
+    top: -80px;
     color: #48ffcf;
-    position: relative;
 }
 .box_big{
     width: 100%;
@@ -171,7 +172,7 @@ body{
     flex-wrap: wrap;
 }
 .content{
-    width: 120px;
+    width: 115px;
     height: 140px;
     margin: 8px 5px;
     background: #a9a9a9;
