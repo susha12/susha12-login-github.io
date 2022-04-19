@@ -3,7 +3,6 @@
     font-family: TTCommonsBold;
     src: url(fonts/TTCommons-Bold.ttf);
 }
-
 /* box_name_fonts and button */
 @font-face {
     font-family: TTCommonsExtraBold;
@@ -89,7 +88,6 @@ body{
 .gamers_name{
     font-family: TTCommonsMedium;
     font-size: 22px;
-    
 }
 .gamers_name{
     cursor: pointer;
@@ -133,8 +131,6 @@ body{
     font-size: 22px;
     margin: 20px auto;
 }
-
-
 #fname{
     height: 35px;
     width: 80%;
