@@ -38,6 +38,7 @@ body{
     width: 100%;
     height: 700px;
     position: relative;
+    top:40px;
     top: calc(45vh - 380px);
     display: flex;
     flex-direction: row;
