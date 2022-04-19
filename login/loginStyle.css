@@ -20,6 +20,7 @@ body{
 .box{
     width: 350px;
     height: 450px;
+    transform: scale(0.85);
 }
 .title{
     width: 200px;
