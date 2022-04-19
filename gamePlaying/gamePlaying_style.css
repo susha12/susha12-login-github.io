@@ -113,6 +113,14 @@ body{
     font-family: TTCommonsMedium;
     line-height: 18px;
 }
+.you_cards{
+    font-size: 20px;
+    font-family: TTCommonsMedium;
+    line-height: 20px;
+    top: 8px;
+    margin-left: 5px;
+    position: absolute;
+}
 .box_left_bottom{
     height: 35.5%;
     width: 100%;
@@ -165,6 +173,10 @@ body{
     flex-wrap: wrap;
 }
 .box_right__bottom{
+    position: relative;
+    padding-top: 30px;
+    padding-left: 3px;
+    box-sizing: border-box;
     height: 49%;
     width: 94%;
     background: #353535;
@@ -173,8 +185,8 @@ body{
 }
 .content{
     width: 115px;
-    height: 140px;
-    margin: 8px 5px;
+    height: 135px;
+    margin: 5px 5px;
     background: #a9a9a9;
     color: black;
     font-family: TTCommonsBold;
