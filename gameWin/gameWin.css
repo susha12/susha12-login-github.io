@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: TTCommonsBold;
-    src: url(/gameWin/fonts/TTCommons-Bold.ttf);
+    src: url(fonts/TTCommons-Bold.ttf);
 }
 /* box_name_fonts and button */
 @font-face {
     font-family: TTCommonsExtraBold;
-    src: url(/gameWin/fonts/TTCommons-ExtraBold.ttf);
+    src: url(fonts/TTCommons-ExtraBold.ttf);
 }
 /* do_you_have_acaunts_fonts and input_fonts */
 @font-face {
     font-family: TTCommonsMedium;
-    src: url(/gameWin/fonts/TTCommons-Medium.ttf);
+    src: url(fonts/TTCommons-Medium.ttf);
 }
 body{
     background:#191919;
