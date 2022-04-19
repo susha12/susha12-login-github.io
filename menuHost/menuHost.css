@@ -43,11 +43,11 @@ body{
 .box_content__left,
 .box_content__center,
 .box_content__right{
- width: calc(100%/3);
- height: 700px;
- background: #353535;
- margin: 0 5px;
- padding-left: 20px;
+     width: calc(100%/3);
+     height: 700px;
+     background: #353535;
+     margin: 0 5px;
+     padding-left: 20px;
     box-sizing: border-box;
 }
 .box_content__left .list_game,
