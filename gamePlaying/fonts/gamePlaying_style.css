@@ -1,0 +1,200 @@
+
+@font-face {
+    font-family: TTCommonsBold;
+    src: url(/gamePlaying/fonts/TTCommons-Bold.ttf);
+}
+/* box_name_fonts and button */
+@font-face {
+    font-family: TTCommonsExtraBold;
+    src: url(/gamePlaying/fonts/TTCommons-ExtraBold.ttf);
+}
+/* do_you_have_acaunts_fonts and input_fonts */
+@font-face {
+    font-family: TTCommonsMedium;
+    src: url(/gamePlaying/fonts/TTCommons-Medium.ttf);
+}
+body{
+    background:#191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.box{
+    width: 1100px;
+    height: 85vh;
+}
+.title{
+    width: 200px;
+    font-family: TTCommonsBold;
+    font-size: 38px;
+    margin: 0px;
+    color: #48ffcf;
+    position: relative;
+    top: 20px;
+}
+.box_big{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: calc(45vh - 380px);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+/* box_left */
+.box_content__left{
+    width: 30%;
+    height: 700px;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+.box_left__top{
+    height: 50%;
+    width: 100%;
+    background: #353535;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.box_qvestion{
+    
+    color: #ffffff;
+}
+.box_title__qvestion{
+    font-family:TTCommonsMedium;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.box_text__qvestion{
+    font-family: TTCommonsBold;
+    font-size: 32px;
+    line-height: 30px;
+}
+.leading_autor{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-family:TTCommonsMedium;
+}
+.box_left_center{
+    height: 12%;
+    width: 100%;
+    background: #353535;
+    margin: 8px 0;
+}
+.leading_box{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.leading_number{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 5px;
+    font-family: TTCommonsMedium;
+    box-sizing: border-box;
+}
+.leading_qvestion{
+    font-size: 18px;
+    font-family: TTCommonsMedium;
+    line-height: 18px;
+}
+.box_left_bottom{
+    height: 35.5%;
+    width: 100%;
+    background: #353535;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.box_content__center{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.rounds_game,
+.gamers_name{
+    font-family: TTCommonsMedium;
+    font-size: 14px;
+    margin: 4px;
+}
+.gamer_name_number{
+    display: inline;
+    font-family: TTCommonsMedium;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.gamers_name{
+    list-style-type: none;
+}
+.list_gamers_numbers{
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.rounds_game{
+    margin: 10px 0;
+}
+/* right  blox */
+.box_content__right{
+    width: 70%;
+    height: 700px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.box_right__top{
+    height: 50%;
+    width: 94%;;
+    background: #353535;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box_right__bottom{
+    height: 49%;
+    width: 94%;
+    background: #353535;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    width: 120px;
+    height: 140px;
+    margin: 8px 5px;
+    background: #a9a9a9;
+    color: black;
+    font-family: TTCommonsMedium;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.acaunt_close{
+    color: #707070;
+    font-size: 20px;
+    font-family: TTCommonsMedium;
+    position: absolute;
+    right: 50px;
+    top: -45px;
+}
+.acaunt_close .text_close{
+    display: inline;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-left: 5px;
+    cursor: pointer;
+}
